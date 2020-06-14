@@ -29,6 +29,17 @@ div#beach {
 
 }
 
+div#video {
+  position: absolute;
+  right: 243px;
+  bottom: 200px;
+}
+
+div#video iframe {
+  width: 255px;
+  height: 155px;
+}
+
 #people {
   position: absolute;
   bottom: 65px;
