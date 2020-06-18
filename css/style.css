@@ -26,7 +26,6 @@ div#beach {
   background-position: bottom right;
   background-size: 1700px;
   background-repeat: no-repeat;
-
 }
 
 div#video {
@@ -443,7 +442,16 @@ div#sea {
     background-size: 2000px;
   }
 
-  
+  div#video {
+    right: 290px;
+    bottom: 235px;
+  }
+
+  div#video iframe {
+    width: 295px;
+    height: 185px;
+  }
+
   .moon {
     right: 230px;
   }

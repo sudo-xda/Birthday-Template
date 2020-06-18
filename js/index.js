@@ -292,6 +292,7 @@ function reveal() {
   {
     w = 255;h = 155;
   }
+
   var ifrm = document.createElement("iframe");
   ifrm.setAttribute("src", "https://www.youtube.com/embed/_QpCwBPEF70?controls=0&loop=1&autoplay=1");
   //ifrm.style.width = `${w}px`;
