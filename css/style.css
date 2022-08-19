@@ -444,8 +444,8 @@ div#sea {
   }
 
   div#video {
-    right: 290px;
-    bottom: 235px;
+    right: 0px;
+    bottom: 0px;
   }
 
   div#video iframe {
