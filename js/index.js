@@ -297,8 +297,7 @@ function reveal() {
   ifrm.setAttribute("src", "sbmandu.mp4");
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
-  ifrm.style.width = `1080px`;
-  ifrm.style.height = `720px`;
+
   ifrm.style.border = 'none';
   document.querySelector('#video').appendChild(ifrm);
 }
