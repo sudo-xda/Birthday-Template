@@ -424,7 +424,7 @@ div#sea {
   top: 60px;
   right: 25px;
 }
-.moon.namem{
+.moon .namem{
   position: absolute;
   color: rgb(3, 20, 255);
   width: 15px;
@@ -460,8 +460,9 @@ div#sea {
   }
 
   div#video iframe {
+    position: absolute;
     width: 720px;
-    height: 1280px;
+    height: 800px;
   }
 
   .moon {
