@@ -287,16 +287,16 @@ function reveal() {
 
   var w, h;
   if (window.innerWidth >= 1000) {
-    w = 295;h = 185;
+    w = 360;h = 480;
   } else
   {
-    w = 255;h = 155;
+    w = 360;h = 480;
   }
 
   var ifrm = document.createElement("iframe");
   ifrm.setAttribute("src", "sbmandu.mp4");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
+  ifrm.style.width = `${w}px`;
+  ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
   document.querySelector('#video').appendChild(ifrm);
 }
