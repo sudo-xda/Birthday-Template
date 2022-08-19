@@ -31,8 +31,8 @@ div#beach {
 
 div#video {
   position: absolute;
-  right: 243px;
-  bottom: 200px;
+  right: px;
+  bottom: 0px;
 }
 
 div#video iframe {
